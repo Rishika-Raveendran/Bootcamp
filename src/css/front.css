@@ -30,3 +30,6 @@
   font-size: 7.5vh;
   color: rgb(102, 226, 154);
 }
+.link:hover {
+  text-decoration: none;
+}

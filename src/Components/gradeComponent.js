@@ -58,11 +58,11 @@ class Grade extends Component {
     const images = {
       task1: [
         { reg: "Entry-a", src: "assets/images/3-edits.jpg" },
-        { reg: "Entry-b", src: "assets/images/3-edits.jpg" },
-        { reg: "Entry-c", src: "assets/images/3-edits.jpg" },
-        { reg: "Entry-d", src: "assets/images/3-edits.jpg" },
-        { reg: "Entry-e", src: "assets/images/3-edits.jpg" },
-        { reg: "Entry-f", src: "assets/images/3-edits.jpg" },
+        { reg: "Entry-b", src: "/assets/images/3-edits.jpg" },
+        { reg: "Entry-c", src: "/assets/images/3-edits.jpg" },
+        { reg: "Entry-d", src: "/assets/images/3-edits.jpg" },
+        { reg: "Entry-e", src: "/assets/images/3-edits.jpg" },
+        { reg: "Entry-f", src: "/assets/images/3-edits.jpg" },
       ],
       task2: [
         { reg: "Entry-g", src: "assets/images/myface.jpg" },

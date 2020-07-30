@@ -77,21 +77,11 @@ class Front extends Component {
               <Form>
                 <FormGroup row>
                   <Label htmlFor="username">Username :</Label>
-                  <Input
-                    type="text"
-                    id="username"
-                    name="username"
-                    innerRef={(input) => (this.username = input)}
-                  />
+                  <Input type="text" id="username" name="username" />
                 </FormGroup>
                 <FormGroup row>
                   <Label htmlFor="password">Password :</Label>
-                  <Input
-                    type="password"
-                    id="password"
-                    name="password"
-                    innerRef={(input) => (this.password = input)}
-                  />
+                  <Input type="password" id="password" name="password" />
                 </FormGroup>
                 <FormGroup row>
                   <ButtonGroup>
@@ -104,14 +94,16 @@ class Front extends Component {
                   </ButtonGroup>
                 </FormGroup>
                 <hr />
-                <Button
-                  type="submit"
-                  value="submit"
-                  color="success"
-                  className="btn-block"
-                >
-                  Register
-                </Button>{" "}
+                <NavLink className="link" to="/home">
+                  <Button
+                    type="submit"
+                    value="submit"
+                    color="success"
+                    className="btn-block"
+                  >
+                    Register
+                  </Button>
+                </NavLink>{" "}
               </Form>
 
               <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
@@ -148,7 +140,7 @@ class Front extends Component {
                       </Label>
                     </FormGroup>
                     <hr />
-                    <NavLink to="/home">
+                    <NavLink className="link" to="/home">
                       <Button
                         type="submit"
                         value="submit"
