@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Bootcamp/static/css/main.8ff82579.chunk.css",
+    "main.js": "/Bootcamp/static/js/main.3dcd7f27.chunk.js",
+    "main.js.map": "/Bootcamp/static/js/main.3dcd7f27.chunk.js.map",
+    "runtime-main.js": "/Bootcamp/static/js/runtime-main.914d963c.js",
+    "runtime-main.js.map": "/Bootcamp/static/js/runtime-main.914d963c.js.map",
+    "static/css/2.4c3b882e.chunk.css": "/Bootcamp/static/css/2.4c3b882e.chunk.css",
+    "static/js/2.74420d94.chunk.js": "/Bootcamp/static/js/2.74420d94.chunk.js",
+    "static/js/2.74420d94.chunk.js.map": "/Bootcamp/static/js/2.74420d94.chunk.js.map",
+    "index.html": "/Bootcamp/index.html",
+    "precache-manifest.39841d7dbc42c21602e11cc978011817.js": "/Bootcamp/precache-manifest.39841d7dbc42c21602e11cc978011817.js",
+    "service-worker.js": "/Bootcamp/service-worker.js",
+    "static/css/2.4c3b882e.chunk.css.map": "/Bootcamp/static/css/2.4c3b882e.chunk.css.map",
+    "static/css/main.8ff82579.chunk.css.map": "/Bootcamp/static/css/main.8ff82579.chunk.css.map",
+    "static/js/2.74420d94.chunk.js.LICENSE.txt": "/Bootcamp/static/js/2.74420d94.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/Bootcamp/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/front.css": "/Bootcamp/static/media/top.2559d9dc.jpg",
+    "static/media/create.css": "/Bootcamp/static/media/white flame.91601a65.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.914d963c.js",
+    "static/css/2.4c3b882e.chunk.css",
+    "static/js/2.74420d94.chunk.js",
+    "static/css/main.8ff82579.chunk.css",
+    "static/js/main.3dcd7f27.chunk.js"
+  ]
+}
