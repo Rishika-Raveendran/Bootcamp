@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Marck+Script&family=Satisfy&display=swap");
+
+.home {
+  background-image: url("../images/white flame.jpg");
+  min-height: 100vh;
+  max-height: max-content;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.rules {
+  font-family: "Bad Script", cursive;
+
+  padding-top: 10vh;
+  font-size: 1.3rem;
+  color: #ecf1fb;
+}
+.description {
+  font-family: "Bad Script", cursive;
+  padding-top: 15vh;
+  font-size: 1.5rem;
+  color: #ecf1fb;
+  line-height: 8vh;
+}
+h2 {
+  text-align: center;
+}
+hr {
+  border-bottom: honeydew solid 1px;
+}

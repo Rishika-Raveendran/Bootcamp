@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Marck+Script&family=Satisfy&display=swap");
+.grade {
+  background-image: url("../images/black.jpg");
+  min-height: 100vh;
+  max-height: max-content;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ecf1fb;
+}
+
+.score {
+  font-family: "Bad Script", cursive;
+  font-size: 1.4rem;
+}
+.card-title {
+  color: black;
+  font-family: "Bad Script", cursive;
+  font-size: 1.5rem;
+  padding: 2vh;
+  border-bottom: solid 1px black;
+}
+.cardbody {
+  border-bottom: solid 1px black;
+}
+.cards {
+  padding-bottom: 3vh;
+}

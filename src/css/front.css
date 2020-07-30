@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&family=Satisfy&display=swap");
+
+.frontpage {
+  background-image: url("../images/top.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: max-content;
+  overflow: hidden;
+  font-family: "Satisfy", cursive;
+}
+
+.brand {
+  font-size: 5vh;
+}
+.text {
+  padding-top: 10vh;
+  font-size: 5vh;
+  color: #ecf1fb;
+  text-align: left;
+}
+.form {
+  padding-top: 10vh;
+  padding-bottom: 2vh;
+  color: #ecf1fb;
+  font-size: 1.4rem;
+}
+.para {
+  font-size: 7.5vh;
+  color: rgb(102, 226, 154);
+}

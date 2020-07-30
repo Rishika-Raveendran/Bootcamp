@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&family=Satisfy&display=swap");
+
+.create {
+  background-image: url("../images/white flame.jpg");
+  min-height: 100vh;
+  max-height: fit-content;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ecf1fb;
+}
+.task-form {
+  font-family: "Bad Script", cursive;
+  margin-top: 5vh;
+  padding-bottom: 2vh;
+  font-size: 1.2rem;
+}
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
