@@ -10,8 +10,10 @@ class Create extends Component {
     task_id: "",
     instructions: "",
   };
-  handleSubmit = (values) => {
-    console.log("Submitted", values);
+  handleSubmit = (event) => {
+    console.log("Current State is: " + JSON.stringify(this.state));
+    alert("Current State is: " + JSON.stringify(this.state));
+    event.preventDefault();
   };
   handleChange = (event) => {
     this.setState({
