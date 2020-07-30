@@ -14,6 +14,7 @@ import {
   ModalHeader,
   ButtonGroup,
 } from "reactstrap";
+import { NavLink } from "react-router-dom";
 import "../css/front.css";
 
 class Front extends Component {
@@ -147,14 +148,16 @@ class Front extends Component {
                       </Label>
                     </FormGroup>
                     <hr />
-                    <Button
-                      type="submit"
-                      value="submit"
-                      color="primary"
-                      href="/home"
-                    >
-                      Login
-                    </Button>{" "}
+                    <NavLink to="/home">
+                      <Button
+                        type="submit"
+                        value="submit"
+                        color="primary"
+                        // href="/home"
+                      >
+                        Login
+                      </Button>
+                    </NavLink>{" "}
                     <Button color="danger" onClick={this.toggleModal}>
                       Cancel
                     </Button>
